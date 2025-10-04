@@ -2,7 +2,7 @@ Object.defineProperty(exports, "__esModule", {
     value: !0
 }), exports.default = void 0;
 
-var e = require("@babel/runtime/helpers/defineProperty.js"), t = require("@babel/runtime/helpers/objectSpread2.js"), a = require("@babel/runtime/helpers/toConsumableArray.js"), u = require("E4B5148285E1369C82D37C8544322695.js");
+var e = require("@babel/runtime/helpers/defineProperty.js"), t = require("@babel/runtime/helpers/objectSpread2.js"), a = require("@babel/runtime/helpers/toConsumableArray.js"), u = require("./E4B5148285E1369C82D37C8544322695.js");
 
 exports.default = Behavior({
     data: {

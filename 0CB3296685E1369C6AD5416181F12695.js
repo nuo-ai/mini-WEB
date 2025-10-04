@@ -2,7 +2,7 @@ Object.defineProperty(exports, "__esModule", {
     value: !0
 }), exports.viewMyHouses = exports.viewHouseInfo = exports.viewHouseDetail = exports.viewDailyList = exports.viewCollectList = exports.updateHouseState = exports.updateHouseInfo = exports.updateFollowState = exports.searchHouseList = exports.removeHouse = exports.askHouseContact = void 0;
 
-var e = require("520A3F0785E1369C346C5700DE812695.js"), o = require("0C73FE8785E1369C6A15968031A12695.js");
+var e = require("./520A3F0785E1369C346C5700DE812695.js"), o = require("./0C73FE8785E1369C6A15968031A12695.js");
 
 exports.searchHouseList = (0, e.Builder)(function(e) {
     return (0, o.SearchResource)().get("/house", e);

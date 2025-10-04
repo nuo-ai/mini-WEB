@@ -13,8 +13,8 @@ exports.default = {
         var n = e + t, o = wx.getStorageSync(n);
         try {
             return o ? JSON.parse(o) : o;
-        } catch (e) {
-            e = VM2_INTERNAL_STATE_DO_NOT_USE_OR_PROGRAM_WILL_FAIL.handleException(e);
+        } catch (i) {
+            console.warn("Failed to parse cached value for", n, i);
             return o;
         }
     },
@@ -23,8 +23,8 @@ exports.default = {
         try {
             var o = JSON.stringify(r);
             wx.setStorageSync(n, o);
-        } catch (e) {
-            e = VM2_INTERNAL_STATE_DO_NOT_USE_OR_PROGRAM_WILL_FAIL.handleException(e);
+        } catch (i) {
+            console.warn("Failed to stringify value for", n, i);
             wx.setStorageSync(n, r);
         }
     },

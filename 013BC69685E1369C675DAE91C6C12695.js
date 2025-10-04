@@ -2,9 +2,9 @@ Object.defineProperty(exports, "__esModule", {
     value: !0
 }), exports.getUserAuth = exports.getLoggingState = exports.cleanUserAuth = void 0;
 
-var e, t = (e = require("6EFD26C485E1369C089B4EC348622695.js")) && e.__esModule ? e : {
+var e, t = (e = require("./6EFD26C485E1369C089B4EC348622695.js")) && e.__esModule ? e : {
     default: e
-}, o = require("0C73FE8785E1369C6A15968031A12695.js");
+}, o = require("./0C73FE8785E1369C6A15968031A12695.js");
 
 exports.getLoggingState = function() {
     return !!t.default.getToken("uid");
