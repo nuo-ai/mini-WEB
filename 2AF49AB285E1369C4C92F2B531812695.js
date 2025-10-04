@@ -1,0 +1,114 @@
+Object.defineProperty(exports, "__esModule", {
+    value: !0
+}), exports.SQUARE_METERS = exports.SALE_PRICES = exports.RENT_TYPES = exports.RENT_PRICES = exports.LAYOUTS = void 0;
+
+exports.RENT_TYPES = [ {
+    name: "整租",
+    value: 3
+}, {
+    name: "合租",
+    value: 1
+} ], exports.RENT_PRICES = [ {
+    name: "1k以下",
+    min: "",
+    max: 1e3
+}, {
+    name: "1k~2k",
+    min: 1e3,
+    max: 2e3
+}, {
+    name: "2k~4k",
+    min: 2e3,
+    max: 4e3
+}, {
+    name: "4k~6k",
+    min: 4e3,
+    max: 6e3
+}, {
+    name: "6k~8k",
+    min: 6e3,
+    max: 8e3
+}, {
+    name: "8k~10k",
+    min: 8e3,
+    max: 1e4
+}, {
+    name: "10k~15k",
+    min: 1e4,
+    max: 15e3
+}, {
+    name: "15k以上",
+    min: 15e3,
+    max: ""
+} ], exports.SALE_PRICES = [ {
+    name: "200万以下",
+    min: "",
+    max: 200
+}, {
+    name: "200~300万",
+    min: 200,
+    max: 300
+}, {
+    name: "300~400万",
+    min: 300,
+    max: 400
+}, {
+    name: "400~500万",
+    min: 400,
+    max: 500
+}, {
+    name: "500~800万",
+    min: 500,
+    max: 800
+}, {
+    name: "800~1000万",
+    min: 800,
+    max: 1e3
+}, {
+    name: "1000万以上",
+    min: 1e3,
+    max: ""
+} ], exports.LAYOUTS = [ {
+    name: "1室",
+    value: "1"
+}, {
+    name: "2室",
+    value: "2"
+}, {
+    name: "3室",
+    value: "3"
+}, {
+    name: "4室",
+    value: "4"
+}, {
+    name: "其他",
+    value: "-1"
+} ], exports.SQUARE_METERS = [ {
+    name: "50㎡以下",
+    min: "",
+    max: 50
+}, {
+    name: "50-70㎡",
+    min: 50,
+    max: 70
+}, {
+    name: "70-90㎡",
+    min: 70,
+    max: 90
+}, {
+    name: "90-110㎡",
+    min: 90,
+    max: 110
+}, {
+    name: "110-130㎡",
+    min: 110,
+    max: 130
+}, {
+    name: "130-150㎡",
+    min: 130,
+    max: 150
+}, {
+    name: "150㎡以上",
+    min: 150,
+    max: ""
+} ];

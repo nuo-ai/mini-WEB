@@ -1,0 +1,1 @@
+{"name":"miniapp-zuber","version":"1.0.0","description":"","main":".eslintrc.js","scripts":{"test":"echo \"Error: no test specified\" && exit 1"},"repository":{"type":"git","url":"http://115.159.94.127/next/miniapp-zuber.git"},"author":"","license":"ISC","dependencies":{"@miniprogram-component-plus/index-list":"^1.0.0","weui-miniprogram":"^1.5.6"}}

@@ -1,0 +1,69 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/city/index",
+        "pages/inbox/index",
+        "pages/dashboard/index",
+        "pages/house/index",
+        "pages/collects/index",
+        "pages/houses/index",
+        "pages/editor/index",
+        "pages/purchase/index",
+        "pages/complete/index",
+        "pages/profile/index",
+        "pages/visitors/index",
+        "pages/message/index",
+        "pages/reply/index",
+        "pages/subscribe/index",
+        "pages/pay/index",
+        "pages/daily/index",
+        "pages/bonus/index",
+        "pages/bill/index",
+        "pages/website/index",
+        "pages/trends/index",
+        "pages/trend/index",
+        "pages/topics/index",
+        "pages/topic/index",
+        "pages/apartment/index",
+        "pages/layout/index",
+        "pages/demands/index",
+        "pages/demand/index",
+        "pages/revoke/index",
+        "pages/entry/index",
+        "pages/seek/index",
+        "pages/location/index",
+        "__plugin__/wx76a9a06e5b4e693e/pages/index/index",
+        "__plugin__/wx76a9a06e5b4e693e/pages/search/search"
+    ],
+    "window": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "Weixin",
+        "navigationBarBackgroundColor": "#ffffff",
+        "navigationStyle": "custom"
+    },
+    "tabBar": {
+        "custom": true,
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "首页"
+            },
+            {
+                "pagePath": "pages/trends/index",
+                "text": "动态"
+            },
+            {
+                "pagePath": "pages/entry/index",
+                "text": "找房"
+            },
+            {
+                "pagePath": "pages/inbox/index",
+                "text": "消息"
+            },
+            {
+                "pagePath": "pages/dashboard/index",
+                "text": "我"
+            }
+        ]
+    }
+}
