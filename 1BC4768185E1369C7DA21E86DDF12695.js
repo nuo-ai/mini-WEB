@@ -2,7 +2,7 @@ Object.defineProperty(exports, "__esModule", {
     value: !0
 }), exports.viewUnreadCount = exports.viewSubscribes = exports.viewMessageDetail = exports.subscribeMessage = exports.sendMessage = exports.searchInbox = void 0;
 
-var e = require("520A3F0785E1369C346C5700DE812695.js"), s = require("0C73FE8785E1369C6A15968031A12695.js");
+var e = require("./520A3F0785E1369C346C5700DE812695.js"), s = require("./0C73FE8785E1369C6A15968031A12695.js");
 
 exports.searchInbox = (0, e.Builder)(function(e) {
     return (0, s.MessageResource)().get("/receive", e);

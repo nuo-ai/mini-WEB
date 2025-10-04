@@ -2,7 +2,7 @@ Object.defineProperty(exports, "__esModule", {
     value: !0
 }), exports.timeStamp = exports.ticket = exports.default = void 0;
 
-var e, t = require("@babel/runtime/helpers/classCallCheck.js"), n = require("@babel/runtime/helpers/createClass.js"), o = (e = require("5F6391C085E1369C3905F9C718422695.js")) && e.__esModule ? e : {
+var e, t = require("@babel/runtime/helpers/classCallCheck.js"), n = require("@babel/runtime/helpers/createClass.js"), o = (e = require("./5F6391C085E1369C3905F9C718422695.js")) && e.__esModule ? e : {
     default: e
 };
 

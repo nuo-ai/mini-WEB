@@ -2,7 +2,7 @@ Object.defineProperty(exports, "__esModule", {
     value: !0
 }), exports.hotCitys = exports.default = void 0;
 
-var t, e = (t = require("6EFD26C485E1369C089B4EC348622695.js")) && t.__esModule ? t : {
+var t, e = (t = require("./6EFD26C485E1369C089B4EC348622695.js")) && t.__esModule ? t : {
     default: t
 };
 

@@ -2,7 +2,7 @@ Object.defineProperty(exports, "__esModule", {
     value: !0
 }), exports.default = void 0;
 
-var t, e = require("9919E58585E1369CFF7F8D8299222695.js"), a = (t = require("6EFD26C485E1369C089B4EC348622695.js")) && t.__esModule ? t : {
+var t, e = require("./9919E58585E1369CFF7F8D8299222695.js"), a = (t = require("./6EFD26C485E1369C089B4EC348622695.js")) && t.__esModule ? t : {
     default: t
 };
 

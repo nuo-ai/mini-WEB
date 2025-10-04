@@ -2,7 +2,7 @@ Object.defineProperty(exports, "__esModule", {
     value: !0
 }), exports.default = void 0;
 
-var e = require("@babel/runtime/helpers/objectSpread2.js"), t = require("7D59F92785E1369C1B3F9120B7122695.js");
+var e = require("@babel/runtime/helpers/objectSpread2.js"), t = require("./7D59F92785E1369C1B3F9120B7122695.js");
 
 exports.default = Behavior({
     data: {

@@ -1,10 +1,10 @@
-var e, n = (e = require("6EFD26C485E1369C089B4EC348622695.js")) && e.__esModule ? e : {
+var e, n = (e = require("./6EFD26C485E1369C089B4EC348622695.js")) && e.__esModule ? e : {
     default: e
 };
 
-require("2A923A3485E1369C4CF45233D5D02695.js");
+require("./2A923A3485E1369C4CF45233D5D02695.js");
 
-var a = require("729E7EE385E1369C14F816E407D12695.js");
+var a = require("./729E7EE385E1369C14F816E407D12695.js");
 
 App({
     onLaunch: function() {

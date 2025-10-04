@@ -2,7 +2,7 @@ Object.defineProperty(exports, "__esModule", {
     value: !0
 }), exports.default = void 0;
 
-var e = n(require("6EFD26C485E1369C089B4EC348622695.js")), t = n(require("2939C4E485E1369C4F5FACE3F8522695.js"));
+var e = n(require("./6EFD26C485E1369C089B4EC348622695.js")), t = n(require("./2939C4E485E1369C4F5FACE3F8522695.js"));
 
 function n(e) {
     return e && e.__esModule ? e : {
@@ -49,11 +49,14 @@ var r = new t.default(e.default, "client"), i = function(t, n, i, u) {
                             }), Promise.reject(t.data.msg);
                         }
                     }(t));
+                },
+                fail: function(e) {
+                    s(e);
                 }
             });
-        } catch (e) {
-            e = VM2_INTERNAL_STATE_DO_NOT_USE_OR_PROGRAM_WILL_FAIL.handleException(e);
-            s(e);
+        } catch (o) {
+            console.error("Unexpected error while issuing request", t, n, o);
+            s(o);
         }
     });
 };
